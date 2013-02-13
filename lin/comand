@@ -1,0 +1,3 @@
+./playgame.py --log_dir game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file maps/cell_maze/cell_maze_p02_19.map ". bot32" "java -cp starter_bots/java MyBot" | java -jar visualizer.jar
+
+export _JAVA_OPTIONS="-Xmx1g
