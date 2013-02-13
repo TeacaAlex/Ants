@@ -14,7 +14,7 @@
     To get started with Ants, you'll need to get familiar with Git.
 
     To initialize your local repository using the Ants trees, use a command like this:
-          $git clone https://github.com/ionutteaca/ants.git
+          $git clone https://github.com/TeacaAlex/Ants.git
     Then:
           $ cd ants/
           $ ls           #you have to see "lin  README"
