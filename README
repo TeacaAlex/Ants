@@ -1,0 +1,27 @@
+  Ants Project
+
+  Requirements
+    This project was tested on Ubuntu 12.10.
+    You must to have installed:
+      -Python 2.7.2.
+        sudo apt-get install python
+      -to run in graphical interface you need JRE
+        sudo apt-get install openjdk-6-jre
+      -to compile java sources you need JDK
+        sudo apt-get install openjdk-6-jdk
+
+  Getting Started
+    To get started with Ants, you'll need to get familiar with Git.
+
+    To initialize your local repository using the Ants trees, use a command like this:
+          $git clone https://github.com/ionutteaca/ants.git
+    Then:
+          $ cd ants/
+          $ ls           #you have to see "lin  README"
+          $ cd lin/starter_bots/java/
+          $ make
+          $ cd ../../    # go back in ants/lin/
+          $ ./playgame.py --log_dir game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file maps/cell_maze/cell_maze_p02_19.map "./bot32" "java -cp starter_bots/java MyBot" | java -jar visualizer.jar
+
+    If the last command lunched the visualizer.jar, you have succeeded to run
+    the project. Congratulations!!!
